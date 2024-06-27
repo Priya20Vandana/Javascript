@@ -31,3 +31,30 @@
  const myFunction = function(){
     console.log("hello world");
  }
+
+
+ //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ //stack (primitive), heap (non-primitive)
+
+ let myName = "priya"
+ let myTitle = myName
+ 
+ myTitle = "vandana"
+  console.log(myName);
+  console.log(myTitle)
+
+
+
+  let userOne = {
+      email = "ekjvnekj@gmail.com",
+      age = 46
+  }
+
+  let userTwo = userOne
+
+  userTwo.email = "kjeiwjol@gmail.com"
+
+  console.log(userOne.email);
+  console.log(userTwo,email);
+  
